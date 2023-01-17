@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "0 index",
+      "setup": "",
+      "run": ".\\fibo.py",
+      "input": "0",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "3th index",
+      "setup": "",
+      "run": ".\\fibo.py",
+      "input": "3",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
