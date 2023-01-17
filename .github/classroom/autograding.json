@@ -19,6 +19,26 @@
       "comparison": "included",
       "timeout": 1,
       "points": null
+    },
+    {
+      "name": "10th index",
+      "setup": "",
+      "run": "python3 fibo.py",
+      "input": "10",
+      "output": "55",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Negative number",
+      "setup": "",
+      "run": "python3 fibo.py",
+      "input": "-10",
+      "output": "-10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
