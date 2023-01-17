@@ -3,7 +3,7 @@
     {
       "name": "0 index",
       "setup": "",
-      "run": ".\\fibo.py",
+      "run": "python3 fibo.py",
       "input": "0",
       "output": "0",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "3th index",
       "setup": "",
-      "run": ".\\fibo.py",
+      "run": "python3 fibo.py",
       "input": "3",
       "output": "2",
       "comparison": "included",
