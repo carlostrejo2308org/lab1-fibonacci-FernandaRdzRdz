@@ -39,6 +39,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": null
+    },
+    {
+      "name": "Big number",
+      "setup": "",
+      "run": "python3 fibo.py",
+      "input": "150",
+      "output": "9969216677189303386214405760200",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
     }
   ]
 }
