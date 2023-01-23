@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "0 index",
+      "setup": "",
+      "run": "python3 fibo.py",
+      "input": "0",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "3th index",
+      "setup": "",
+      "run": "python3 fibo.py",
+      "input": "3",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "10th index",
+      "setup": "",
+      "run": "python3 fibo.py",
+      "input": "10",
+      "output": "55",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Negative number",
+      "setup": "",
+      "run": "python3 fibo.py",
+      "input": "-10",
+      "output": "-10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Big number",
+      "setup": "",
+      "run": "python3 fibo.py",
+      "input": "150",
+      "output": "9969216677189303386214405760200",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
